@@ -1,0 +1,11 @@
+name: Code Style Check
+
+on:
+  push:
+    branches:
+      - vetka
+  pull_request:
+    branches:
+      - vetka
+
+jobs:
